@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>山东师范大学</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-size: 1.2em; /* 加大字体 */
+      padding: 5px 10px; /* 增加内边距 */
+      border: 2px solid #333; /* 添加方框 */
+      border-radius: 5px; /* 圆角 */
+    }
+
+    .hot-events {
+      margin-bottom: 30px;
+    }
+
+    .event {
+      display: flex;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .event-img {
+      width: 60%;  /* 调整图片宽度 */
+      height: 180px; /* 保持高度 */
+      background-color: #f0f0f0;
+      margin-right: 15px;  /* 右侧边距 */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #666;
+    }
+
+    .event-info {
+      flex: 1; /* 剩余宽度给文字 */
+    }
+
+    .contact-info {
+      margin-top: 20px;
+      border-top: 1px solid #ccc; /* 添加顶部边框作为分割线 */
+      padding-top: 20px; /* 增加上边距 */
+    }
+    
+    /* 分割线样式 */
+    .event-divider {
+      border: 0;
+      height: 1px;
+      background: linear-gradient(to right, 
+        transparent, 
+        #ccc, 
+        transparent);
+      margin: 20px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 头部标题 -->
+  <header>
+    <h1>山东师范大学</h1>
+  </header>
+
+  <!-- 导航栏 -->
+  <nav>
+    <a href="#">网站首页</a>
+    <a href="#">学校概况</a>
+    <a href="#">学院介绍</a>
+    <a href="#">更多</a>
+  </nav>
+
+  <!-- 提示图片和热点事件区域 -->
+  <p>(图片、放置近期热点事件)</p>
+
+  <!-- 近期热点事件 -->
+  <div class="hot-events">
+    <div class="event">
+      <div class="event-img">(图片)</div>
+      <div class="event-info">
+        <p>2025-09-20</p>
+        <p>山东师范大学举办建校75周年校长 (校友)论坛</p>
+      </div>
+    </div>
+    
+    <!-- 添加分割线 -->
+    <hr class="event-divider">
+    
+    <div class="event">
+      <div class="event-img">(图片)</div>
+      <div class="event-info">
+        <p>2025-9-10</p>
+        <p>山东师范大学喜迎2025级新生</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 学校地址和招生电话 -->
+  <div class="contact-info">
+    <p>山东师范大学</p>
+    <p>千佛山校区地址：济南市历下区文化东路88号</p>
+    <p>长清湖校区地址：济南市长清区大学科技园大学路1号</p>
+    <p>招生电话：0531-8612345</p>
+  </div>
+</body>
+
+</html>
